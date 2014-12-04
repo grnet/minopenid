@@ -3,7 +3,7 @@ miopenid
 
 Minimum OpenID Connect Server / Client
 
-Note that in order to work you need a functional keystore and client certificates. You can create them as follows.
+Note that in order to work you need a functional keystore and client certificates. You can create them as follows; make sure you enter the correct passwords in [jetty-ssl.xml](https://github.com/grnet/minopenid/blob/master/jetty-ssl.xml).
 
 #### Create server key
     openssl genrsa -out jetty.key 2048
